@@ -25,3 +25,5 @@ tasks.withType(JavaCompile) {
 tasks.withType(JavaExec) {
     jvmArgs += '--enable-preview'
 }
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
